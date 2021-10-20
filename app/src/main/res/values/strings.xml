@@ -1,0 +1,146 @@
+<resources xmlns:nain="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Projet</string>
+
+    <!-- DESCRIPTIONS -->
+
+    <string name="namedwarf">Erezar</string>
+    <string name="racedwarf">Nain</string>
+    <string name="agedwarf">45 ans</string>
+    <string name="histdwarf"> Nain résidant à la Capitale Enfouie, Erezar passe ses journées à boire et à s\'amuser avec ses compagnons à la taverne. Ancien Mineur reconverti dans le trafic de marchandises, certains évènements vont changer son destin d\'une manière inattendue</string>
+
+    <string name="namedryad">Zelitia</string>
+    <string name="racedryad">Dryade</string>
+    <string name="agedryad">Inconnu</string>
+    <string name="histdryad"> Une dryade habitant les forêts denses et mystiques près de la capitale Elfe. Elle développe, contrairement à ses semblables, une curiosité envers le monde extérieur. Un évènement curieux va se produire, la poussant à découvrir le monde malgré les interdits de sa tribu.</string>
+
+    <string name="nameelf">Narina</string>
+    <string name="raceelf">Elfe</string>
+    <string name="ageelf">108 ans</string>
+    <string name="histelf"> Une elfe résidant à la capitale Elfe et dotée de pouvoirs magiques immenses, elle possède des capacités hors normes, mais ressent beaucoup plus la magie ambiante que ses congénères. Une fluctuation du mana dans l\'air va causer son départ de la capitale.</string>
+
+    <string name="namehuman">Ornitas</string>
+    <string name="racehuman">Humain</string>
+    <string name="agehuman">22 ans</string>
+    <string name="histhuman"> Un jeune humain habitant dans un petit village près du chateau du Roi, il rêve de devenir chevalier au service du royaume, et gagne sa vie en s\'occupant des écuries. Un évènement tragique va venir bouleverser sa vie tranquille, et le forcer à prendre des décisions critiques pour l\'avenir du royaume.</string>
+
+    <!-- PANEL NAIN -->
+    <string-array name="panelnain1">
+        <item name="titre">Initiation du nain</item>
+        <item name="histoire"> Vous vous trouvez dans la taverne auquel vous êtes habitué. Vous apercevez 2 brigands qui discutent, que souhaitez-vous faire?</item>
+    </string-array>
+
+    <string-array name="panelnain2">
+        <item name="titre"> Altercation </item>
+        <item name="histoire"> "Que voulez-vous ? Nous sommes occupés" Il n\'ont pas l\'air de vouloir discuter avec vous, que voulez-vous faire? </item>
+    </string-array>
+
+    <string-array name="panelnain3">
+        <item name="titre"> Castagne</item>
+        <item name="histoire"> Ils ont l\'air d\'être agressifs, vous repartez donc pour éviter tout problème a l\'aubergiste que vous connaissez bien. </item>
+    </string-array>
+
+    <string-array name="panelnain4">
+        <item name="titre"> Sortie</item>
+        <item name="histoire"> Vous prenez vos affaires et vous partez en payant votre note </item>
+    </string-array>
+
+    <!-- APPEL ETAPES NAIN -->
+
+    <array name="nain">
+        <item name="p1">@array/panelnain1</item>
+        <item name="p2">@array/panelnain2</item>
+        <item name="p3">@array/panelnain3</item>
+        <item name="p4">@array/panelnain4</item>
+    </array>
+
+    <!-- PANEL DRYADE -->
+    <array name="paneldryade1">
+        <item name="titre">Initiation de la dryade</item>
+        <item name="histoire"> Vous vous réveillez dans votre forêt, autour de vous les oiseaux chantent et sifflent, une chute d\'eau et une arbre frémissent, que voulez-vous faire?</item>
+    </array>
+
+    <array name="paneldryade2">
+        <item name="titre"> Oiseaux</item>
+        <item name="histoire"> Les oiseaux ont l\'air d\'avoir peur de vous, ils se taisent en vous voyant arriver, que faire maintenant? </item>
+    </array>
+
+    <array name="paneldryade3">
+        <item name="titre"> Cascade </item>
+        <item name="histoire"> La cascade fait un bruit assourdissant mais vous rafraichit quand vous passez près d\'elle. Vous pouvez aller voir l\'arbre frémissant. </item>
+    </array>
+
+    <array name="paneldryade4">
+        <item name="titre"> Arbre frémissant</item>
+        <item name="histoire"> L\'arbre frémit, vous sentez un vent froid qui parcourt les terres, peut-être un mauvais présage, vous décidez de retourner d\'où vous venez.</item>
+    </array>
+
+    <!-- APPEL ETAPES DRYADE -->
+
+    <array name="dryade">
+        <item name="p1">@array/paneldryade1</item>
+        <item name="p2">@array/paneldryade2</item>
+        <item name="p3">@array/paneldryade3</item>
+        <item name="p4">@array/paneldryade4</item>
+    </array>
+
+    <!-- PANEL ELFE -->
+
+    <array name="panelelfe1">
+        <item name="titre">Initiation de l\'elfe</item>
+        <item name="histoire"> Vous etes dans votre chaumière, vous décidez de vous lever, que voulez-vous faire?</item>
+    </array>
+
+    <array name="panelelfe2">
+        <item name="titre"> Votre amie </item>
+        <item name="histoire"> Elle a l\air très occupée, vous devriez revenir plus tard. Que faire? </item>
+    </array>
+
+    <array name="panelelfe3">
+        <item name="titre"> Méditation</item>
+        <item name="histoire"> Vous méditez quelques instants et vous sentez ressourcée. Que faire ensuite? </item>
+    </array>
+
+    <array name="panelelfe4">
+        <item name="titre"> Repos</item>
+        <item name="histoire"> Vous vous reposez, vous sentez que vous vous endormez très vite. Un rêve commence...</item>
+    </array>
+
+    <!-- APPEL ETAPES ELFE -->
+
+    <array name="elfe">
+        <item name="p1">@array/panelelfe1</item>
+        <item name="p2">@array/panelelfe2</item>
+        <item name="p3">@array/panelelfe3</item>
+        <item name="p4">@array/panelelfe4</item>
+    </array>
+
+    <!-- PANEL HUMAIN -->
+    <array name="panelhumain1">
+        <item name="titre">Initiation de l\'humain</item>
+        <item name="histoire"> Vous vous levez comme chaque journée, vous pouvez aller nourrir les chevaux, vos parents ne sont pas loin non plus. Vous pouvez aussi récurer les écuries. Que faire?</item>
+    </array>
+
+    <array name="panelhumain2">
+        <item name="titre"> Les chevaux</item>
+        <item name="histoire"> Vous allez voir les chevaux, ils ont l\'air heureux de vous voir, que faire ensuite ? </item>
+    </array>
+
+    <array name="panelhumain3">
+        <item name="titre"> Vos Parents</item>
+        <item name="histoire"> Vos parents parlent fort, ils ont l\'air de se disputer, vous préferez les laisser tranquille, que faire ?</item>
+    </array>
+
+    <array name="panelhumain4">
+        <item name="titre"> Les écuries</item>
+        <item name="histoire"> Vous récurez les écuries, vous entendez un grand bruit venant de l\'extérieur, vous décidez d\aller voir ce qu\'il se passe.</item>
+    </array>
+
+    <!-- APPEL ETAPES HUMAIN -->
+
+    <array name="humain">
+        <item name="p1">@array/panelhumain1</item>
+        <item name="p2">@array/panelhumain2</item>
+        <item name="p3">@array/panelhumain3</item>
+        <item name="p4">@array/panelhumain4</item>
+    </array>
+</resources>

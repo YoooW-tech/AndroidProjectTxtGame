@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--NAIN-->
+
+    <string-array name="btnpanelnain1">
+        <item name="bouton1">Venir discuter</item>
+        <item name="bouton2">Les menacer</item>
+        <item name="bouton3">Ignorer</item>
+        <item name="bouton4">Partir de la taverne</item>
+    </string-array>
+
+    <string-array name="btnpanelnain2">
+        <item name="bouton1">Les menacer</item>
+        <item name="bouton2">Les laisser tranquille</item>
+        <item name="bouton3">Partir de la taverne</item>
+    </string-array>
+
+    <string-array name="btnpanelnain3">
+        <item name="bouton1">Vous buvez un coup</item>
+        <item name="bouton2">Partir</item>
+    </string-array>
+
+    <string-array name="btnpanelnain4">
+        <item name="bouton1">Vous partez de la taverne </item>
+
+    </string-array>
+
+    <!-- APPEL BOUTONS NAIN -->
+
+    <array name="boutonnain">
+        <item>@array/btnpanelnain1</item>
+        <item>@array/btnpanelnain2</item>
+        <item>@array/btnpanelnain3</item>
+        <item>@array/btnpanelnain4</item>
+    </array>
+
+    <!--DRYADE-->
+
+    <string-array name="btnpaneldryade1">
+        <item name="bouton1">Les oiseaux</item>
+        <item name="bouton2">La cascade</item>
+        <item name="bouton3">L\'arbre frémissant</item>
+        <item name="bouton4">Ne rien faire</item>
+    </string-array>
+
+    <string-array name="btnpaneldryade2">
+        <item name="bouton1">La cascade</item>
+        <item name="bouton2">L\'arbre frémissant</item>
+        <item name="bouton3">Retourner en arrière</item>
+    </string-array>
+
+    <string-array name="btnpaneldryade3">
+        <item name="bouton1">L\'arbre frémissant</item>
+        <item name="bouton2">Retourner en arrière</item>
+
+    </string-array>
+
+    <string-array name="btnpaneldryade4">
+        <item name="bouton1">Retour</item>
+
+    </string-array>
+
+    <!-- APPEL BOUTONS DRYADE -->
+
+    <array name="boutondryad">
+        <item>@array/btnpaneldryade1</item>
+        <item>@array/btnpaneldryade2</item>
+        <item>@array/btnpaneldryade3</item>
+        <item>@array/btnpaneldryade4</item>
+    </array>
+
+    <!--ELFE-->
+    <string-array name="btnpanelelfe1">
+        <item name="bouton1">Voir votre amie</item>
+        <item name="bouton2">Méditer</item>
+        <item name="bouton3">Se reposer</item>
+        <item name="bouton4">Ne rien faire</item>
+    </string-array>
+
+    <string-array name="btnpanelelfe2">
+        <item name="bouton1">Méditer</item>
+        <item name="bouton2">Se reposer</item>
+        <item name="bouton3">Ne rien faire</item>
+    </string-array>
+
+    <string-array name="btnpanelelfe3">
+        <item name="bouton1">Se reposer</item>
+        <item name="bouton2">ne rien faire</item>
+    </string-array>
+
+    <string-array name="btnpanelelfe4">
+        <item name="bouton1">Suite</item>
+
+    </string-array>
+
+    <!-- APPEL BOUTONS ELFE -->
+
+    <array name="boutonelf">
+        <item>@array/btnpanelelfe1</item>
+        <item>@array/btnpanelelfe2</item>
+        <item>@array/btnpanelelfe3</item>
+        <item>@array/btnpanelelfe4</item>
+    </array>
+
+    <!--HUMAIN-->
+
+    <string-array name="btnpanelhumain1">
+        <item name="bouton1">Les chevaux</item>
+        <item name="bouton2">Vos parents</item>
+        <item name="bouton3">Récurer</item>
+        <item name="bouton4">Ne rien faire</item>
+    </string-array>
+
+    <string-array name="btnpanelhumain2">
+        <item name="bouton1">Vos parents</item>
+        <item name="bouton2">Récurer</item>
+        <item name="bouton3">Ne rien faire</item>
+    </string-array>
+    <string-array name="btnpanelhumain3">
+        <item name="bouton1">Récurer</item>
+        <item name="bouton2">Ne rien faire</item>
+
+    </string-array>
+    <string-array name="btnpanelhumain4">
+        <item name="bouton1">Suivre</item>
+
+    </string-array>
+
+    <!-- APPEL BOUTONS HUMAIN -->
+
+    <array name="boutonhumain">
+        <item>@array/btnpanelhumain1</item>
+        <item>@array/btnpanelhumain2</item>
+        <item>@array/btnpanelhumain3</item>
+        <item>@array/btnpanelhumain4</item>
+    </array>
+</resources>

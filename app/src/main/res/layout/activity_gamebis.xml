@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gamebis"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:id="@+id/rootgamebis"
+    android:alpha="0.0">
+
+    <RelativeLayout
+        android:id="@+id/titrejeubis"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/corner">
+
+        <TextView
+            android:id="@+id/txttitrejeubis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/histjeubis"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/corner">
+
+        <TextView
+            android:id="@+id/txthistjeubis"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"/>
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:id="@+id/gridbutonbis"
+        android:layout_width="360dp"
+        android:layout_height="match_parent"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btngridbis1"
+            android:text="32"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/border"/>
+
+        <Button
+            android:id="@+id/btngridbis2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border"/>
+
+        <Button
+            android:text="gooooooo"
+            android:id="@+id/btngridbis3"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/border"/>
+
+        <Button
+            android:id="@+id/btngridbis4"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="15dp"
+            android:visibility="gone"
+            android:background="@drawable/border"/>
+    </GridLayout>
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:id="@+id/rootgame"
+    android:alpha="0.0">
+
+    <RelativeLayout
+        android:id="@+id/titrejeu"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/corner">
+
+        <TextView
+            android:id="@+id/txttitrejeu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/histjeu"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/corner">
+
+        <TextView
+            android:id="@+id/txthistjeu"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:id="@+id/gridbuton"
+        android:layout_width="360dp"
+        android:layout_height="match_parent"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btngrid1"
+            android:text="3434"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/border"/>
+
+        <Button
+            android:id="@+id/btngrid2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border"/>
+
+        <Button
+            android:id="@+id/btngrid3"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/border"/>
+
+        <Button
+            android:id="@+id/btngrid4"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="15dp"
+            android:visibility="gone"
+            android:background="@drawable/border"/>
+    </GridLayout>
+
+</LinearLayout>
